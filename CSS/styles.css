@@ -1,0 +1,25 @@
+body{
+    background-color: darkslategrey;
+}
+
+
+/*Diferenciando salas*/
+#apartment{
+    background-color: gray;
+}
+
+#living-room{
+background-color: dimgrey;
+}
+
+.bedroom{
+    background-color: darkolivegreen;
+}
+
+.bathroom{
+    background-color: deepskyblue;
+}
+
+#passageway{
+    background-color: darkslateblue;
+}
