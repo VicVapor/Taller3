@@ -28,6 +28,7 @@ body {
 /*Diferenciando salas*/
 #living-room {
     background-color: dimgrey;
+    padding: 0;
 }
 
 .bedroom {
@@ -43,6 +44,9 @@ body {
 }
 
 /*Puertas*/
-#living-room{
-    border-top: solid 10px black;
+.door{
+    width: 40%;
+    background-color: #5d4037;
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-in-out;
 }
