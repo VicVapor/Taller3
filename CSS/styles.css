@@ -1,25 +1,44 @@
-body{
+body {
     background-color: darkslategrey;
 }
 
-
-/*Diferenciando salas*/
-#apartment{
+/*Dando tamanios*/
+#apartment-plan {
     background-color: gray;
+    width: 2000px;
+    height: 900px;
 }
 
-#living-room{
-background-color: dimgrey;
+#first-part{
+    height: 60%;
 }
 
-.bedroom{
-    background-color: darkolivegreen;
-}
-
-.bathroom{
-    background-color: deepskyblue;
+#north-rooms{
+    height: 50%;
 }
 
 #passageway{
+    height: 50%;
+}
+
+#second-part{
+    height: 40%;
+}
+
+/*Diferenciando salas*/
+
+#living-room {
+    background-color: dimgrey;
+}
+
+.bedroom {
+    background-color: darkolivegreen;
+}
+
+.bathroom {
+    background-color: deepskyblue;
+}
+
+#passageway {
     background-color: darkslateblue;
 }
