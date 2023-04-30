@@ -1,19 +1,17 @@
 const puerta1 = document.getElementById("door1");
-let angle = 0;
-let incremento = 1;
-let intervalo = 10;
-
-let intervaloID = setInterval(abrirPuertaUno, intervalo);
+const btnAbrirPuerta = document.getElementById("abrir-puerta-uno");
+const btnReiniciar = document.getElementById("boton-reiniciar");
 
 function abrirPuertaUno() {
     console.log("Rotando");
-    angle += incremento;
-    puerta1.style.transform = "rotate(" + angle + "deg";
-    if (angle >= 45) {
-        clearInterval(intervaloID);
-    }
+    puerta1.style.transform = "rotate(60deg)";
 }
+
+btnAbrirPuerta.addEventListener("click", abrirPuertaUno);
+
 
 function reiniciar() {
     puerta1.style.transform = "rotate(0deg)";
 }
+
+btnReiniciar.addEventListener("click", reiniciar);
