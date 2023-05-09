@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39792ad3-1970-4ba8-999e-00b973b5517a" name="Changes" comment="Se agregan botones y funciones para abrir y cerrar la puerta, en un futuro se hará con la voz, por lo que los botones solo son provisionales.">
+      <change beforePath="$PROJECT_DIR$/.gitinore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitinore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
@@ -42,12 +45,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vicjo/Desktop/ProyectosEnCurso/apiFit",
+    "last_opened_file_path": "C:/Users/vicjo/Desktop/ProyectosEnCurso/santijuanvicfood",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,7 +72,14 @@
       <workItem from="1682735669180" duration="2907000" />
       <workItem from="1682741579244" duration="2318000" />
       <workItem from="1682801655496" duration="3775000" />
-      <workItem from="1682875853097" duration="3336000" />
+      <workItem from="1682875853097" duration="3420000" />
+      <workItem from="1682982733194" duration="14000" />
+      <workItem from="1682982749226" duration="836000" />
+      <workItem from="1682993101688" duration="595000" />
+      <workItem from="1683217014152" duration="41000" />
+      <workItem from="1683595072236" duration="599000" />
+      <workItem from="1683600236671" duration="595000" />
+      <workItem from="1683603481592" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan botones y funciones para abrir y cerrar la puerta, en un futuro se hará con la voz, por lo que los botones solo son provisionales.">
       <created>1682812611179</created>
