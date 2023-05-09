@@ -5,7 +5,7 @@ const btnAbrirPuerta = document.getElementById("abrir-puerta-uno");
 const btnReiniciar = document.getElementById("boton-reiniciar");
 const btnPruebaSaludar = document.getElementById("btn-saludar");
 
-btnPruebaSaludar.addEventListener("click", saludar);
+btnPruebaSaludar.addEventListener("click", iniciarEscucha);
 
 //Iniciando artyom
 function startListening() {
@@ -60,7 +60,7 @@ function startListening() {
 
 //Funciones de la interfaz:
 
-function saludar() {
+function iniciarEscucha() {
     artyom.say("Escucha inteligente activada");
 }
 
