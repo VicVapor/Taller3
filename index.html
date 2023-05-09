@@ -5,31 +5,38 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
 		  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="CSS/styles.css">
-	<title>Title</title>
+	<title>Smart Apartment</title>
 </head>
 <body>
 <button id="btn-saludar" onclick="startListening()">Escuchar</button>
-<button id="abrir-puerta-uno">Abrir primera puerta</button>
-<button id="boton-reiniciar">Reiniciar</button>
 <div class="container text-center" id="apartment-plan">
 	<div class="row" id="first-part">
 		<div class="col-8">
 			<div class="row" id="north-rooms">
-				<div class="col-4 bedroom">HABITACIÓN 1</div>
+				<div class="col-4 bedroom">
+					<div class="col door" id="door2">puerta 2</div>
+					HABITACIÓN 1
+				</div>
 				<div class="col-4 bathroom">BAÑO 1</div>
-				<div class="col-4 bedroom">HABITACIÓN 2</div>
+				<div class="col-4 bedroom">
+					<div class="col door" id="door3">puerta 3</div>
+					HABITACIÓN 2
+				</div>
 			</div>
 			<div class="row" id="passageway">
 				Pasillo
 			</div>
 		</div>
 		<div class="col" id="living-room">
-			<div class="col door" id="door1">puerta</div>
+			<div class="col door" id="door1">puerta 1</div>
 			SALA Y ENTRADA
 		</div>
 	</div>
 	<div class="row" id="second-part">
-		<div class="col-4 bedroom">HABITACIÓN 3</div>
+		<div class="col-4 bedroom">
+			<div class="col door" id="door4">puerta 4</div>
+			HABITACIÓN 3
+		</div>
 		<div class="col" id="">LAVADO</div>
 		<div class="col bathroom">BAÑO 2</div>
 		<div class="col-4">COCINA</div>
