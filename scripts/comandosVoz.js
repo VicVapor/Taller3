@@ -5,6 +5,10 @@ const detectionButtonsVoz = document.getElementById("voiceButtons");
 const btnGuardar = document.getElementById("btn-guardar")
 const inputNombre = document.getElementById("nombres");
 
+btnGuardar.addEventListener("click", function () {
+    const nombre = inputNombre.value.trim();
+    artyom.say(`Hola ${nombre}`);
+});
 
 activarDeteccionVoz.addEventListener("change", function () {
     if (this.checked) {
