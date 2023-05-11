@@ -2,7 +2,7 @@ body {
     background-color: darkslategrey;
 }
 
-/*Dando tamanios*/
+/*Dando tamaños*/
 #apartment-plan {
     background-color: gray;
     width: 2000px;
@@ -29,14 +29,19 @@ body {
 #living-room {
     background-color: dimgrey;
     padding: 0;
+    position: relative;
 }
 
 .bedroom {
     background-color: darkolivegreen;
+    padding: 0;
+    position: relative;
 }
 
 .bathroom {
     background-color: deepskyblue;
+    padding: 0;
+    position: relative;
 }
 
 #passageway {
@@ -49,4 +54,25 @@ body {
     background-color: #5d4037;
     transform-origin: bottom left;
     transition: transform 1s ease-in-out;
+    position: absolute;
+    bottom: 0;
+}
+
+.door-2{
+    width: 40%;
+    background-color: #5d4037;
+    transform-origin: bottom left;
+    transition: transform 1s ease-in-out;
+    position: absolute;
+}
+
+/*Ventanas*/
+.window{
+    background-color: deepskyblue;
+    width: 30%;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    transition: transform 1s ease-in-out;
+    transform-origin: bottom left;
 }
