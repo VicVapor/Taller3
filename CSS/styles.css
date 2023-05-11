@@ -1,7 +1,3 @@
-body {
-    background-color: darkslategrey;
-}
-
 /*Dando tamaños*/
 #apartment-plan {
     background-color: gray;
@@ -9,19 +5,19 @@ body {
     height: 900px;
 }
 
-#first-part{
+#first-part {
     height: 60%;
 }
 
-#north-rooms{
+#north-rooms {
     height: 50%;
 }
 
-#passageway{
+#passageway {
     height: 50%;
 }
 
-#second-part{
+#second-part {
     height: 40%;
 }
 
@@ -44,12 +40,18 @@ body {
     position: relative;
 }
 
+.bedroom h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #passageway {
     background-color: darkslateblue;
 }
 
 /*Puertas*/
-.door{
+.door {
     width: 40%;
     background-color: #5d4037;
     transform-origin: bottom left;
@@ -58,7 +60,7 @@ body {
     bottom: 0;
 }
 
-.door-2{
+.door-2 {
     width: 40%;
     background-color: #5d4037;
     transform-origin: bottom left;
@@ -67,7 +69,7 @@ body {
 }
 
 /*Ventanas*/
-.window{
+.window {
     background-color: deepskyblue;
     width: 30%;
     position: absolute;
@@ -75,4 +77,45 @@ body {
     top: 0;
     transition: transform 1s ease-in-out;
     transform-origin: bottom left;
+}
+
+/*Detección de objetos*/
+canvas {
+    border: 1px solid black;
+}
+
+/*Registro*/
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto auto;
+    border-radius: 4px;
+    font-family: 'calibry', serif;
+    color: white;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibry', serif;
+    font-size: 18px;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }

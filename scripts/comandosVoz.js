@@ -1,5 +1,23 @@
 const artyom = new Artyom();
 
+const activarDeteccionVoz = document.getElementById("voiceDetection");
+const detectionButtonsVoz = document.getElementById("voiceButtons");
+const btnGuardar = document.getElementById("btn-guardar")
+const inputNombre = document.getElementById("nombres");
+
+btnGuardar.addEventListener("click", function () {
+    const nombre = inputNombre.value.trim();
+    artyom.say(`Hola ${nombre}`);
+});
+
+activarDeteccionVoz.addEventListener("change", function () {
+    if (this.checked) {
+        detectionButtonsVoz.style.display = "block";
+    } else {
+        detectionButtonsVoz.style.display = "none";
+    }
+});
+
 //Puertas
 const puerta1 = document.getElementById("door1");
 const puerta2 = document.getElementById("door2");
